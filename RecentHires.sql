@@ -1,0 +1,2 @@
+SELECT * FROM employees
+WHERE joining_date >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH);
